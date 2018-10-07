@@ -1,0 +1,77 @@
+body {
+    background: #F8F3EF;
+    font-family: "Courier", "sans-serif";
+    text-align: center;
+}
+.container {
+    width: 400px;
+    margin: 30px auto;
+}
+
+#result{
+    width: 250px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 30px;
+    font-family: "Courier", "sans-serif";
+    text-align: center;
+    float: left;
+}
+#btn {
+    width: 120px;
+    padding: 3px;
+    color: #fff;
+    background: pink;
+    /* padding: 7px; */
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #EEACC7;
+    cursor: pointer;
+    float: right;
+}
+#btn:hover{
+    opacity: 0.8;
+}
+.clear {
+    clear: both;
+}
+#useFor {
+    height: 20px;
+}
+form #passSubmit {
+    width: 400px;
+    height: 30px;
+    margin: 10px 0;
+    line-height:  30px;
+    text-align: center;
+    font-size: 15px;
+    background: #97CACC;
+    color: #fff;
+    border-radius: 5px;
+}
+form #passSubmit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+form  {
+    margin-top: 15px;
+    float: left;
+}
+
+/* span {
+    font-size: 6px;
+
+} */
+fieldset {
+    width: 93%;
+    margin-top: 60px;
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    text-align: left;
+}
+legend {
+    font-weight: bold; 
+    padding: 0 10px;
+}
+fieldset p {
+    text-align: center;
+}
